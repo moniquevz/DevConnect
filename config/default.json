@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://Monique:Password1234@cluster0-ijmnd.mongodb.net/<dbname>?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "69fbf00d937315847416",
+  "githubSecret": "06872df752ddda404ae4fdd0f89e9287ac03f05c"
 }
