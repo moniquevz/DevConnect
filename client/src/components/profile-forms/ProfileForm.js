@@ -125,7 +125,7 @@ const ProfileForm = ({
             onChange={onChange}
           />
           <small className='form-text'>
-            City & state suggested (eg. Boston, MA)
+            City & Province suggested (eg. Cape Town, Western Cape)
           </small>
         </div>
         <div className='form-group'>
