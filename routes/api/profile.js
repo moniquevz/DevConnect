@@ -1,6 +1,5 @@
 const express = require("express");
 const axios = require('axios');
-const request = require("request");
 const config = require("config");
 const router = express.Router();
 const auth = require("../../middleware/auth");
@@ -8,8 +7,7 @@ const { check, validationResult } = require("express-validator");
 
 const Profile = require("../../models/Profile");
 const User = require("../../models/User");
-const nodemon = require("nodemon");
-const { response } = require("express");
+
 
 //@ route   GET api/Profile/me
 //@desc     Get current users profile
